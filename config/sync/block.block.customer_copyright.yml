@@ -1,0 +1,25 @@
+uuid: 316efa60-6459-43b1-ba58-d8971bd0c687
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:aaca330f-2f58-4c84-af56-28aa385c14d1'
+  module:
+    - block_content
+  theme:
+    - customer
+id: customer_copyright
+theme: customer
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'block_content:aaca330f-2f58-4c84-af56-28aa385c14d1'
+settings:
+  id: 'block_content:aaca330f-2f58-4c84-af56-28aa385c14d1'
+  label: copyright
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }
