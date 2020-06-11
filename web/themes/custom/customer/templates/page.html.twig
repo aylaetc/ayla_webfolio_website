@@ -1,0 +1,45 @@
+<div class="wrapper">
+
+    {% if page.preheader %}
+        <div class="region-preheader">
+            {{ page.preheader }}
+        </div>{# /.preheader #}
+    {% endif %}
+
+    {% if page.header %}
+        <header class="region-header">
+            {{ page.header }}
+        </header>{# /.header #}
+    {% endif %}
+
+    {% if page.help %}
+        <div class="region-help">
+            {{ page.help }}
+        </div>{# /.help #}
+    {% endif %}
+
+    {% if page.content %}
+        <main class="region-content">
+            {{ page.content }}
+        </main>{# /.content #}
+    {% endif %}
+
+    {% if page.list %}
+        <section class="region-list">
+            {{ page.list }}
+        </section>{# /.list #}
+    {% endif %}
+
+    {% if page.prefooter %}
+        <section class="region-prefooter">
+            {{ page.prefooter }}
+        </section>{# /.prefooter #}
+    {% endif %}
+
+    {% if page.footer %}
+        <footer class="region-footer">
+            {{ page.footer }}
+        </footer>{# /.footer #}
+    {% endif %}
+
+</div>{# /.wrapper #}

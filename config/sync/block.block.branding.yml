@@ -1,0 +1,28 @@
+uuid: 4dce62d2-4ff0-479b-975f-1da17bee83fa
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - customer
+id: branding
+theme: customer
+region: preheader
+weight: -4
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: false
+  use_site_slogan: false
+visibility:
+  request_path:
+    id: request_path
+    pages: /node/3
+    negate: true
+    context_mapping: {  }

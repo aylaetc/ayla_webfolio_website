@@ -1,0 +1,15 @@
+<?php
+/**
+ * @file
+ * Functions to support theming in the Adminimal theme.
+ */
+use Drupal\Component\Utility\Xss;
+use Drupal\Core\Form\FormStateInterface;
+/**
+ * Implements hook_preprocess_HOOK() for HTML document templates.
+ */
+function customer_theme_suggestions_field_alter(&$suggestions, $variables) {
+    $suggestions[] = 'field__node__' . $variables['element']['#field_name'] . '__' .
+        $variables['element']['#bundle'] . '__' .
+        $variables['element']['#view_mode'];
+}

@@ -1,0 +1,90 @@
+uuid: b1e5b1ab-0d9c-4bc7-b3ff-13456f25c603
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.project.field_body
+    - field.field.node.project.field_body_footer
+    - field.field.node.project.field_body_header
+    - field.field.node.project.field_link
+    - field.field.node.project.field_masonry_footer
+    - field.field.node.project.field_masonry_header
+    - field.field.node.project.field_picture
+    - field.field.node.project.field_project_types
+    - field.field.node.project.field_subtitle
+    - node.type.project
+  module:
+    - ds
+    - image
+    - user
+third_party_settings:
+  ds:
+    layout:
+      id: layout-project-teaser
+      library: null
+      disable_css: false
+      entity_classes: all_classes
+      settings:
+        label: ''
+    regions:
+      picture:
+        - field_picture
+      content:
+        - node_title
+        - field_project_types
+      link:
+        - node_link
+    fields:
+      node_link:
+        plugin_id: node_link
+        weight: 3
+        label: hidden
+        formatter: default
+        settings:
+          'link text': Découvrir
+          'link class': ''
+          wrapper: ''
+          class: ''
+      node_title:
+        plugin_id: node_title
+        weight: 1
+        label: hidden
+        formatter: default
+        settings:
+          wrapper: ''
+          class: ''
+          link: false
+id: node.project.teaser
+targetEntityType: node
+bundle: project
+mode: teaser
+content:
+  field_picture:
+    type: image
+    weight: 0
+    region: picture
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+  field_project_types:
+    type: entity_reference_label
+    weight: 2
+    region: content
+    label: hidden
+    settings:
+      link: false
+    third_party_settings:
+      ds:
+        ds_limit: '2'
+hidden:
+  field_body: true
+  field_body_footer: true
+  field_body_header: true
+  field_link: true
+  field_masonry_footer: true
+  field_masonry_header: true
+  field_subtitle: true
+  links: true

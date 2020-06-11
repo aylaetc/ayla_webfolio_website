@@ -1,0 +1,11 @@
+.field-title-1 {
+    font-family: 'california_dreamer_sansRg';
+    font-size: 3em;
+}
+.project.default .field-title-1 {
+    line-height: 1em;
+}
+.project.teaser .field-title-1 {
+    font-size: 1.7em;
+}
+

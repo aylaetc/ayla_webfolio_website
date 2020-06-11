@@ -1,0 +1,10 @@
+#block-social .field-body{
+    display: flex;
+    align-items: center;
+    font-size: 1.3em;
+}
+
+#block-social .field-body img{
+    padding: 0.3em;
+    width: 1.5em;
+}

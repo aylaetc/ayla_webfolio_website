@@ -1,0 +1,25 @@
+uuid: 53a03543-f519-45bc-a75a-dc18fe79f87e
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:8fdf502f-8a90-4a21-8097-c7ada292128f'
+  module:
+    - block_content
+  theme:
+    - customer
+id: social
+theme: customer
+region: footer
+weight: 0
+provider: null
+plugin: 'block_content:8fdf502f-8a90-4a21-8097-c7ada292128f'
+settings:
+  id: 'block_content:8fdf502f-8a90-4a21-8097-c7ada292128f'
+  label: Social
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

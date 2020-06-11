@@ -1,0 +1,38 @@
+uuid: 40f86b55-5338-4e06-96f4-67803b353f29
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_masonry_header
+    - node.type.project
+  module:
+    - image
+id: node.project.field_masonry_header
+field_name: field_masonry_header
+entity_type: node
+bundle: project
+label: masonry_header
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image

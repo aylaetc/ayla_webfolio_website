@@ -1,0 +1,14 @@
+#block-branding img{
+    display: block;
+    width: auto;
+    height: 7em;
+    padding: 1em;
+}
+#block-branding-home img{
+    display: block;
+    width: auto;
+    height: 10em;
+}
+#block-branding-home{
+    font-family: 'california_dreamer_sansRg';
+}

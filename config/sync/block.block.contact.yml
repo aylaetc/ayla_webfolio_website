@@ -1,0 +1,31 @@
+uuid: 26de3dbd-8285-478b-bf8e-36dbb889833d
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:edfbf137-8e4e-44a8-895c-a6663c4bab40'
+  module:
+    - block_content
+    - system
+  theme:
+    - customer
+id: contact
+theme: customer
+region: prefooter
+weight: 0
+provider: null
+plugin: 'block_content:edfbf137-8e4e-44a8-895c-a6663c4bab40'
+settings:
+  id: 'block_content:edfbf137-8e4e-44a8-895c-a6663c4bab40'
+  label: About
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

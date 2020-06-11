@@ -1,0 +1,12 @@
+/* mobile */
+/* .region-content{
+    margin-top: 0;
+} */
+@media screen and (min-width: 850px) {
+    .region-content{
+        margin-top: 6em;
+    }
+    .region-content{
+        margin-bottom: 6em;
+    }
+}

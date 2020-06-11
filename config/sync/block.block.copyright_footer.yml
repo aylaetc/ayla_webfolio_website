@@ -1,0 +1,25 @@
+uuid: fba7fab5-7c2f-4269-8b59-17735e0d4ca4
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:aaca330f-2f58-4c84-af56-28aa385c14d1'
+  module:
+    - block_content
+  theme:
+    - customer
+id: copyright_footer
+theme: customer
+region: footer
+weight: 0
+provider: null
+plugin: 'block_content:aaca330f-2f58-4c84-af56-28aa385c14d1'
+settings:
+  id: 'block_content:aaca330f-2f58-4c84-af56-28aa385c14d1'
+  label: copyright
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

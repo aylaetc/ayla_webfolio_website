@@ -1,0 +1,25 @@
+/* mobile */
+#block-main-navigation ul{
+    margin-bottom: 1em;
+}
+#block-main-navigation ul li{
+    list-style: none;
+    font-family: 'california_dreamer_sansRg';
+    font-size: 1.7em;
+    margin-bottom: 0.5em;
+}
+
+/* Desktop */
+@media screen and (min-width: 850px) {
+    #block-main-navigation{
+    padding: 0 2em;
+    position: fixed;
+    right: 0;
+    top: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 20vw;
+    }
+}

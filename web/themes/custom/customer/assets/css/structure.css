@@ -1,3 +1,93 @@
-body{
-    background-color: rgb(128, 154, 240);
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300;400&display=swap');
+/* font-family: 'Assistant', sans-serif; */
+@font-face {
+    font-family: 'california_dreamer_sansRg';
+    src: url('../fonts/californiadreamersans-webfont.woff2') format('woff2'),
+         url('../fonts/californiadreamersans-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
+* {
+    padding: 0;
+    margin: 0;
+    border: none;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: 'Assistant', sans-serif;
+    font-weight: 300;
+    font-size: 100%;
+}
+/* ---------------------- RESETS */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: inherit;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+p {
+    line-height: 24px;
+}
+em{
+    color: #c69f70;
+    font-family: 'Assistant', sans-serif;
+    font-weight: 400;
+    font-style: inherit;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+ul li{
+    list-style: inside;
+}
+/* ---------------------- REGIONS */
+.wrapper {
+    width: 80vw;
+    margin: 0 auto;
+}
+@media screen and (max-width: 960px) {
+    .container {
+        width: 95vw;
+        margin: 0 auto;
+    }
+}
+
+/* .region{
+
+}
+[id*="block-"] {
+
+}
+[id*="block-"]:last-child {
+    margin-bottom: 0;
+}
+.region-header{
+
+}
+.region-help{
+
+}
+.region-content{
+
+}
+.region-list{
+
+}
+.region-prefooter{
+
+} */

@@ -1,0 +1,39 @@
+uuid: 3390d37a-a1d6-496f-9073-9f9753120701
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.homepage.field_body
+    - node.type.homepage
+  module:
+    - ds
+    - text
+    - user
+third_party_settings:
+  ds:
+    layout:
+      id: layout-homepage-default
+      library: null
+      disable_css: false
+      entity_classes: all_classes
+      settings:
+        label: ''
+    regions:
+      header:
+        - field_subtitle
+      content:
+        - field_body
+id: node.homepage.default
+targetEntityType: node
+bundle: homepage
+mode: default
+content:
+  field_body:
+    weight: 1
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden:
+  links: true

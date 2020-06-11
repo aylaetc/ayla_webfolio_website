@@ -1,0 +1,28 @@
+#block-tabs > ul{
+    display: flex;
+    justify-content: center;
+}
+#block-tabs > ul::after{
+    content: "";
+    border-bottom: solid 1px #000;
+    width: 100%;
+    position: absolute;
+    bottom: 2.5em;
+    right: 0;
+    z-index: -2;
+}
+#block-tabs ul li{
+    font-family: 'california_dreamer_sansRg';
+    font-size: 1.2em;
+    list-style: none;
+    background-color: #fff;
+}
+#block-tabs > ul li a{
+    padding: 0.5em 1.5em;
+    display: block;
+}
+ #block-tabs > ul li a.is-active{
+    padding: 0.5em 1em;
+    display: block;
+    color: #c69f70;
+}

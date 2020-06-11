@@ -1,0 +1,47 @@
+layout-homepage-default:
+  label: Homepage default - Display
+  category: Customer
+  path: templates/layout
+  template: layout-homepage-default
+  regions:
+    content:
+      label: Content First
+
+layout-project-default:
+  label: Project default - Display
+  category: Customer
+  path: templates/layout
+  template: layout-project-default
+  regions:
+    content:
+      label: Content First
+    pictureheader:
+      label: Picture Header
+    picturefooter:
+      label: Picture Footer
+
+layout-project-teaser:
+  label: Project teaser - Display
+  category: Customer
+  path: templates/layout
+  template: layout-project-teaser
+  regions:
+    picture:
+      label: Picture
+    content:
+      label: Content First
+    link:
+      label: Link
+
+layout-about-default:
+  label: About default - Display
+  category: Customer
+  path: templates/layout
+  template: layout-about-default
+  regions:
+    content:
+      label: Content First
+    pictureheader:
+      label: Picture Header
+    picturefooter:
+      label: Picture Footer

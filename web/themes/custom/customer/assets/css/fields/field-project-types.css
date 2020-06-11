@@ -1,0 +1,21 @@
+/* PROJECT DEFAULT & TEASER*/
+
+.project.default .field-project-types,
+.project.teaser .field-project-types  {
+    display: flex;
+    margin-bottom: 1.5em;
+}
+.project.default .field-project-types li,
+.project.teaser .field-project-types li {
+    font-family: 'california_dreamer_sansRg';
+    list-style: none;
+    font-size: 1.3em;
+} 
+.project.default .field-project-types li:not(:first-child)::before,
+.project.teaser .field-project-types li:not(:first-child)::before {
+    content: "\2022";
+    font-family: 'Assistant', sans-serif;
+    font-size: initial;
+    padding: 0 0.5em 0 0.8em;
+}
+

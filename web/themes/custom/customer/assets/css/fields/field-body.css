@@ -1,0 +1,81 @@
+.field-body h2{
+    font-family: 'california_dreamer_sansRg';
+    font-size: 1.7em;
+}
+.field-body h3, .field-body h4{
+    font-family: 'california_dreamer_sansRg';
+    font-size: 1.5em;
+}
+/* HOME */
+.home .field-body{
+    font-family: 'california_dreamer_sansRg';
+    font-size: 1.7em;
+}
+.home .field-body p{
+    margin-bottom: 1em;
+}
+.home .field-body p:last-child{
+    color: #c69f70;
+}
+
+/* FOOTER */
+.region-footer{
+    font-family: 'california_dreamer_sansRg';
+}
+#block-copyright-footer strong{
+    font-weight: 200;
+}
+#block-copyright-footer span{
+    font-family: 'Assistant', sans-serif;
+}
+#block-social .field-body p{
+    margin-right: 0.5em;
+}
+
+/* ABOUT */
+.about .field-body ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+.about .field-body p{
+    margin-bottom: 1.5em;
+}
+.about .field-body ul{
+    margin-bottom: 1em;
+}
+.about .field-body ul li{
+    flex: 50%;
+    padding: 0.2em 0;
+}
+
+/* PROJETC */
+.project.default .field-body p{
+    margin-bottom: 1.5em;
+}
+.project.default .field-body em{
+    font-family: 'california_dreamer_sansRg';
+}
+.project.default .field-body ul{
+    margin-bottom: 1em;
+}
+.project.default .field-body:not(:last-child) ul li:first-child{
+    list-style: none;
+    margin-bottom: 0.5em;
+}
+
+/* BLOCK CONTACT */
+#block-contact h2{
+    text-align: center;
+    margin-bottom: 0.5em;
+}
+#block-contact p{
+    margin-bottom: 1em;
+}
+#block-contact p:last-child{
+    text-align: center;
+}
+#block-contact a{
+    color: #c69f70;
+    font-family: 'california_dreamer_sansRg';
+    font-size: 1.5em;
+}

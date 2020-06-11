@@ -1,0 +1,30 @@
+uuid: 9535898d-a575-4f2e-95ee-0cbae7d25bac
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.about.field_body
+    - field.field.node.about.field_body_footer
+    - field.field.node.about.field_body_header
+    - field.field.node.about.field_masonry_footer
+    - field.field.node.about.field_masonry_header
+    - node.type.about
+  module:
+    - user
+id: node.about.teaser
+targetEntityType: node
+bundle: about
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_body: true
+  field_body_footer: true
+  field_body_header: true
+  field_masonry_footer: true
+  field_masonry_header: true

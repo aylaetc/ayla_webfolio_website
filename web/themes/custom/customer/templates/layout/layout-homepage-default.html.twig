@@ -1,0 +1,17 @@
+{% if content %}
+
+    <article class="home">
+
+        <div class="layout">
+
+            {% if content.content %}
+            <div class="layout-content">
+                {{ content.content }}
+            </div>
+            {% endif %}
+
+        </div>
+
+    </article>
+
+{% endif %}

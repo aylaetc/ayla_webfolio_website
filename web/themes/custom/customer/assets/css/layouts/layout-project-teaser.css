@@ -1,0 +1,25 @@
+.path-frontpage .project.teaser{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+}
+.path-frontpage .project.teaser .layout{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+}
+.path-frontpage .project.teaser .layout > *{
+    grid-row: 1;
+    grid-column: 1;
+    padding: 1em;
+}
+.path-frontpage .project.teaser .layout-content,
+.path-frontpage .project.teaser .layout > div:last-child{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    color: #fff;
+    padding: 2em;
+}
