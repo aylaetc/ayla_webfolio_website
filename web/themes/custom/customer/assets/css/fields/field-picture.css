@@ -41,15 +41,6 @@
     display: block;
 }
 
-/* PROJECT TEASER */
-.project.teaser .layout .field-picture img{
-    display: block;
-    object-fit: cover;
-    height: 100%;
-    width: 100%;
-}
-
-
 /* desktop */
 @media screen and (min-width: 850px) {
     .about .field-picture li, .project.default .field-picture li{

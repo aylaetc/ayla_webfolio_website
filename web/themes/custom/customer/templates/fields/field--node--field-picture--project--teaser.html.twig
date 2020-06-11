@@ -1,10 +1,5 @@
 {% for item in items %}
-    {% if loop.first %}
-         <div class="field-picture">
+    <div class="field-picture">
         {{ item.content }}
-        </div>
-        <div class="field-picture-hidden">
-        {{ item.content }}
-        </div>
-    {% endif %}
+    </div>
 {% endfor %}
