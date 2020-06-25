@@ -1,18 +1,19 @@
 /* mobile */
 #block-contact{
     padding: 2em;
+    margin-bottom: 10em;
 }
 
 /* tablet */
 @media screen and (min-width: 640px) and (max-width: 1200px) {
     #block-contact {
-        padding: 2em 4em;
+        padding: 0 4em;
     }
 }
 
 /* desktop */
 @media screen and (min-width: 1200px) {
     #block-contact {
-        padding: 4em 20em;
+        padding: 0 20em;
     }
 }

@@ -45,3 +45,25 @@ layout-about-default:
       label: Picture Header
     picturefooter:
       label: Picture Footer
+
+layout-page-default:
+  label: Page default - Display
+  category: Customer
+  path: templates/layout
+  template: layout-page-default
+  regions:
+    content:
+      label: Content First
+
+layout-webform-default:
+  label: Webform default - Display
+  category: Customer
+  path: templates/layout
+  template: layout-webform-default
+  regions:
+    content:
+      label: Content First
+    pictureheader:
+      label: Picture Header
+    picturefooter:
+      label: Picture Footer

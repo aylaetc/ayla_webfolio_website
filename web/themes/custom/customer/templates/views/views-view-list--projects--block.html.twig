@@ -1,0 +1,13 @@
+{% if attributes -%}
+  <div{{ attributes }}>
+    {% endif %}
+    <ul class="slider">
+        {% for row in rows %}
+        <li{{ row.attributes }}>
+            {{- row.content -}}
+        </li>
+        {% endfor %}
+    </ul>
+    {% if attributes -%}
+  </div>
+{% endif %}

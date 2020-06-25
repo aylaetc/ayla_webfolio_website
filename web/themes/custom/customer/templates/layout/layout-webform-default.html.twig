@@ -1,0 +1,29 @@
+{% if content %}
+
+    <article class="webform">
+
+        <div class="layout">
+
+            {% if content.content %}
+            <div class="layout-content">
+                {{ content.content }}
+            </div>
+            {% endif %}
+
+            {% if content.pictureheader %}
+            <div class="layout-picture-header">
+                {{ content.pictureheader }}
+            </div>
+            {% endif %}
+            
+            {% if content.picturefooter %}
+            <div class="layout-picture-footer">
+                {{ content.picturefooter }}
+            </div>
+            {% endif %}
+
+        </div>
+
+    </article>
+
+{% endif %}

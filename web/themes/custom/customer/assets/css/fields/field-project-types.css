@@ -9,7 +9,7 @@
 .project.teaser .field-project-types li {
     font-family: 'california_dreamer_sansRg';
     list-style: none;
-    font-size: 1.3em;
+    font-size: 1.2em;
 } 
 .project.default .field-project-types li:not(:first-child)::before,
 .project.teaser .field-project-types li:not(:first-child)::before {
