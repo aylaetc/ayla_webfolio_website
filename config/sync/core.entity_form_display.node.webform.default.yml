@@ -1,0 +1,76 @@
+uuid: 187b0850-c167-402f-b3d3-34b5e4366e87
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.webform.field_body
+    - field.field.node.webform.field_masonry_footer
+    - field.field.node.webform.field_masonry_header
+    - field.field.node.webform.webform
+    - image.style.thumbnail
+    - node.type.webform
+  module:
+    - image
+    - text
+    - webform
+_core:
+  default_config_hash: A3evv2pt6d-bKCPcgjXA5VGTemXWOxG3lSXvWiRWcck
+id: node.webform.default
+targetEntityType: node
+bundle: webform
+mode: default
+content:
+  field_body:
+    weight: 2
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+      show_summary: false
+    third_party_settings: {  }
+    type: text_textarea_with_summary
+    region: content
+  field_masonry_footer:
+    weight: 4
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_masonry_header:
+    weight: 0
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  status:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 5
+    region: content
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: 1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    region: content
+  webform:
+    weight: 3
+    settings:
+      default_data: true
+    third_party_settings: {  }
+    type: webform_entity_reference_select
+    region: content
+hidden:
+  created: true
+  path: true
+  promote: true
+  sticky: true
+  uid: true

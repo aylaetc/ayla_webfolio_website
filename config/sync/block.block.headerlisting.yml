@@ -1,0 +1,31 @@
+uuid: 4f17c717-fb22-4059-8ff5-b0c9f2d79fc3
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:8eb7fd99-c3ab-4edb-9a73-8df27e1f4a36'
+  module:
+    - block_content
+    - system
+  theme:
+    - customer
+id: headerlisting
+theme: customer
+region: aside
+weight: 0
+provider: null
+plugin: 'block_content:8eb7fd99-c3ab-4edb-9a73-8df27e1f4a36'
+settings:
+  id: 'block_content:8eb7fd99-c3ab-4edb-9a73-8df27e1f4a36'
+  label: 'Header listing'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /realisations
+    negate: false
+    context_mapping: {  }

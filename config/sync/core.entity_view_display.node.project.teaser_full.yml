@@ -1,0 +1,99 @@
+uuid: 2a508659-ef8a-44e2-8a4d-acb13972f72b
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser_full
+    - field.field.node.project.field_body
+    - field.field.node.project.field_body_footer
+    - field.field.node.project.field_body_header
+    - field.field.node.project.field_link
+    - field.field.node.project.field_masonry_footer
+    - field.field.node.project.field_masonry_header
+    - field.field.node.project.field_picture
+    - field.field.node.project.field_project_types
+    - field.field.node.project.field_subtitle
+    - node.type.project
+  module:
+    - ds
+    - image
+    - text
+    - user
+third_party_settings:
+  ds:
+    layout:
+      id: layout-project-teaser-full
+      library: null
+      disable_css: false
+      entity_classes: all_classes
+      settings:
+        label: ''
+    regions:
+      picture:
+        - field_picture
+      content:
+        - node_title
+        - field_project_types
+      link:
+        - node_link
+      contentsecond:
+        - field_body_header
+    fields:
+      node_link:
+        plugin_id: node_link
+        weight: 3
+        label: hidden
+        formatter: default
+        settings:
+          'link text': Découvrir
+          'link class': ''
+          wrapper: ''
+          class: ''
+      node_title:
+        plugin_id: node_title
+        weight: 1
+        label: hidden
+        formatter: default
+        settings:
+          wrapper: ''
+          class: ''
+          link: false
+id: node.project.teaser_full
+targetEntityType: node
+bundle: project
+mode: teaser_full
+content:
+  field_body_header:
+    weight: 4
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: contentsecond
+  field_picture:
+    type: image
+    weight: 0
+    region: picture
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+  field_project_types:
+    type: entity_reference_label
+    weight: 2
+    region: content
+    label: hidden
+    settings:
+      link: false
+    third_party_settings:
+      ds:
+        ds_limit: '2'
+hidden:
+  field_body: true
+  field_body_footer: true
+  field_link: true
+  field_masonry_footer: true
+  field_masonry_header: true
+  field_subtitle: true
+  links: true

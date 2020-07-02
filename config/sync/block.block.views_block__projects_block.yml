@@ -1,4 +1,4 @@
-uuid: 3c24c0c0-468f-4f08-8767-5951f3deb917
+uuid: 7c879d11-0502-4358-b69a-23a2db80c613
 langcode: en
 status: true
 dependencies:
@@ -9,14 +9,14 @@ dependencies:
     - views
   theme:
     - customer
-id: views_block__projects
+id: views_block__projects_block
 theme: customer
 region: content
 weight: -4
 provider: null
-plugin: 'views_block:projects-block_1'
+plugin: 'views_block:projects-block'
 settings:
-  id: 'views_block:projects-block_1'
+  id: 'views_block:projects-block'
   label: ''
   provider: views
   label_display: '0'

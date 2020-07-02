@@ -34,13 +34,16 @@ third_party_settings:
         - node_title
         - field_subtitle
         - field_body_header
-        - field_body
-        - field_link
-        - field_body_footer
       pictureheader:
         - field_masonry_header
+      contentsecond:
+        - field_body
       picturefooter:
         - field_masonry_footer
+      contentthird:
+        - field_body_footer
+      link:
+        - field_link
     fields:
       node_title:
         plugin_id: node_title
@@ -57,16 +60,16 @@ bundle: project
 mode: default
 content:
   field_body:
-    weight: 4
+    weight: 5
     label: hidden
     settings: {  }
     third_party_settings: {  }
     type: text_default
-    region: content
+    region: contentsecond
   field_body_footer:
     type: text_default
-    weight: 6
-    region: content
+    weight: 7
+    region: contentthird
     label: hidden
     settings: {  }
     third_party_settings: {  }
@@ -78,7 +81,7 @@ content:
     type: text_default
     region: content
   field_link:
-    weight: 5
+    weight: 8
     label: hidden
     settings:
       trim_length: 80
@@ -88,10 +91,10 @@ content:
       rel: '0'
     third_party_settings: {  }
     type: link
-    region: content
+    region: link
   field_masonry_footer:
     type: image
-    weight: 8
+    weight: 6
     region: picturefooter
     label: hidden
     settings:
@@ -99,7 +102,7 @@ content:
       image_link: ''
     third_party_settings: {  }
   field_masonry_header:
-    weight: 7
+    weight: 4
     label: hidden
     settings:
       image_style: ''

@@ -3,11 +3,35 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.field.node.page.body
+    - field.field.node.page.field_body
     - node.type.page
   module:
+    - ds
     - text
     - user
+third_party_settings:
+  ds:
+    layout:
+      id: layout-page-default
+      library: null
+      disable_css: false
+      entity_classes: all_classes
+      settings:
+        label: ''
+    regions:
+      content:
+        - node_title
+        - field_body
+    fields:
+      node_title:
+        plugin_id: node_title
+        weight: 0
+        label: hidden
+        formatter: default
+        settings:
+          wrapper: ''
+          class: ''
+          link: false
 _core:
   default_config_hash: g1S3_GLaxq4l3I9RIca5Mlz02MxI2KmOquZpHw59akM
 id: node.page.default
@@ -15,14 +39,12 @@ targetEntityType: node
 bundle: page
 mode: default
 content:
-  body:
+  field_body:
+    weight: 1
     label: hidden
-    type: text_default
-    weight: 100
-    region: content
     settings: {  }
     third_party_settings: {  }
-  links:
-    weight: 101
+    type: text_default
     region: content
-hidden: {  }
+hidden:
+  links: true

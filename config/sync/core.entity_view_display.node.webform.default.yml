@@ -1,0 +1,87 @@
+uuid: 83fdef86-9862-45eb-9dcd-19972e01a769
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.webform.field_body
+    - field.field.node.webform.field_masonry_footer
+    - field.field.node.webform.field_masonry_header
+    - field.field.node.webform.webform
+    - node.type.webform
+  module:
+    - ds
+    - image
+    - text
+    - user
+    - webform
+third_party_settings:
+  ds:
+    layout:
+      id: layout-webform-default
+      library: null
+      disable_css: false
+      entity_classes: all_classes
+      settings:
+        label: ''
+    regions:
+      content:
+        - node_title
+        - field_body
+        - webform
+      pictureheader:
+        - field_masonry_header
+      picturefooter:
+        - field_masonry_footer
+    fields:
+      node_title:
+        plugin_id: node_title
+        weight: 0
+        label: hidden
+        formatter: default
+        settings:
+          wrapper: ''
+          class: ''
+          link: false
+_core:
+  default_config_hash: 3r1i0UMUbeNHhvmiqHDYznoS4G9XR1jq6lQ49r80lDE
+id: node.webform.default
+targetEntityType: node
+bundle: webform
+mode: default
+content:
+  field_body:
+    type: text_summary_or_trimmed
+    weight: 1
+    region: content
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+  field_masonry_footer:
+    weight: 4
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: picturefooter
+  field_masonry_header:
+    type: image
+    weight: 3
+    region: pictureheader
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+  webform:
+    weight: 2
+    label: hidden
+    settings:
+      source_entity: true
+    third_party_settings: {  }
+    type: webform_entity_reference_entity_view
+    region: content
+hidden:
+  links: true

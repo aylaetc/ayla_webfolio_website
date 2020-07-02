@@ -1,0 +1,28 @@
+uuid: 0becc782-f465-4b19-9933-f99e0a3c9a86
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.listing.field_body
+    - node.type.listing
+  module:
+    - text
+    - user
+id: node.listing.default
+targetEntityType: node
+bundle: listing
+mode: default
+content:
+  field_body:
+    weight: 102
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

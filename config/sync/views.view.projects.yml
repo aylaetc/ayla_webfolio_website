@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
+    - core.entity_view_mode.node.teaser_full
     - node.type.project
     - system.menu.main
   module:
@@ -194,9 +195,9 @@ display:
         - 'user.node_grants:view'
         - user.permissions
       tags: {  }
-  block_1:
+  block:
     display_plugin: block
-    id: block_1
+    id: block
     display_title: Block
     position: 1
     display_options:
@@ -222,6 +223,8 @@ display:
           offset: 0
       defaults:
         pager: false
+        style: false
+        row: false
       menu:
         type: normal
         title: Réalisations
@@ -232,6 +235,23 @@ display:
         context: '0'
         menu_name: main
       path: realisations
+      style:
+        type: html_list
+        options: {  }
+      row:
+        type: 'ds_entity:node'
+        options:
+          relationship: none
+          view_mode: teaser_full
+          alternating_fieldset:
+            alternating: false
+            allpages: false
+          grouping_fieldset:
+            group: false
+            group_field: node_field_data|created
+            group_field_function: ''
+          advanced_fieldset:
+            advanced: false
     cache_metadata:
       max-age: -1
       contexts:

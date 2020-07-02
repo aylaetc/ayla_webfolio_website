@@ -1,25 +1,23 @@
-uuid: 03adf180-76e4-4325-aab5-854a6831c078
+uuid: 3a9fb8b2-0256-493d-b961-457f01add1bf
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.body
-    - node.type.page
+    - field.storage.node.field_body
+    - node.type.listing
   module:
     - text
-_core:
-  default_config_hash: KgVkxLl_K3E3lvN6CEoWQIDT0V8J4Mv-fVYrAIc7-FE
-id: node.page.body
-field_name: body
+id: node.listing.field_body
+field_name: field_body
 entity_type: node
-bundle: page
-label: Body
+bundle: listing
+label: 'Contenu principal'
 description: ''
 required: false
 translatable: true
 default_value: {  }
 default_value_callback: ''
 settings:
-  display_summary: true
+  display_summary: false
   required_summary: false
 field_type: text_with_summary

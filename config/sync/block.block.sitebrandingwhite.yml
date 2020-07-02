@@ -1,0 +1,31 @@
+uuid: 3f03d587-533c-4e9f-9aa4-d05fe450b45c
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:1d96eb21-564f-435e-8216-3732e71b7741'
+  module:
+    - block_content
+    - system
+  theme:
+    - customer
+id: sitebrandingwhite
+theme: customer
+region: preheader
+weight: 0
+provider: null
+plugin: 'block_content:1d96eb21-564f-435e-8216-3732e71b7741'
+settings:
+  id: 'block_content:1d96eb21-564f-435e-8216-3732e71b7741'
+  label: 'Site branding white'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /node/1
+    negate: false
+    context_mapping: {  }
