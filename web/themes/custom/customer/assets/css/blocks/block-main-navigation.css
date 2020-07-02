@@ -8,6 +8,9 @@
     font-size: 1.7em;
     margin-bottom: 0.5em;
 }
+.page-node-type-project #block-main-navigation ul li{
+    color: #fff;
+}
 
 /* Desktop */
 @media screen and (min-width: 850px) {

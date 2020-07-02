@@ -1,4 +1,5 @@
-#block-branding img{
+#block-branding img,
+#block-sitebrandingwhite img{
     display: block;
     width: auto;
     height: 7em;

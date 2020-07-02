@@ -6,4 +6,7 @@
     .region-content{
         margin: 6em 0;
     }
+    .page-node-type-project .region-content{
+        margin: 0;
+    }
 }

@@ -5,4 +5,14 @@
     width: 100%;
     top: 0;
     padding: 0 8em;
+    z-index: 1000;
+}
+.page-node-type-project .region-preheader{
+    background-color: transparent;
+    margin: 0 -10vw;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    padding: 0 8em;
+    z-index: 1000;
 }
