@@ -1,4 +1,7 @@
-.path-frontpage .region-prefooter{
-    background: url(../../images/tache-aquarelle-histoire-ayla-etc.png) center center no-repeat;
-    background-size: contain;
+.path-frontpage .region-prefooter {
+  padding-top: 10em;
+  background-image: url("../../images/tache-aquarelle-histoire-ayla-etc.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: contain;
 }
