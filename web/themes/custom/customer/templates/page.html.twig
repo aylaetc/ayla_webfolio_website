@@ -18,11 +18,19 @@
         </div>{# /.help #}
     {% endif %}
 
-    {% if page.content %}
-        <main class="region-content">
-            {{ page.content }}
-        </main>{# /.content #}
-    {% endif %}
+    <main class="region-main">
+        {% if page.aside|render|trim is not empty %}
+            <div class="region-aside">
+                {{ page.aside }}
+            </div>{# /.aside#}
+        {% endif %}
+
+        {% if page.content %}
+            <div class="region-content">
+                {{ page.content }}
+            </div>{# /.content #}
+        {% endif %}
+    </main>
 
     {% if page.list %}
         <section class="region-list">

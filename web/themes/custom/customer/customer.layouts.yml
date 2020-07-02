@@ -33,6 +33,21 @@ layout-project-teaser:
     link:
       label: Link
 
+layout-project-teaser-full:
+  label: Project teaser full - Display
+  category: Customer
+  path: templates/layout
+  template: layout-project-teaser-full
+  regions:
+    picture:
+      label: Picture
+    content:
+      label: Content First
+    link:
+      label: Link
+    contentsecond:
+      label: Content Second
+
 layout-about-default:
   label: About default - Display
   category: Customer

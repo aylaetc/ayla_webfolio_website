@@ -1,4 +1,11 @@
-#block-mainpagecontent .home{
-    margin-top: -5em;
-    padding: 0 7em;
+
+
+@media screen and (min-width: 1150px){
+    #block-mainpagecontent .home{
+        margin-top: -5em;
+        padding: 0 7em;
+    }
+    /* .path-node #block-mainpagecontent .layout-content{
+        padding-right: 10em;
+    } */
 }

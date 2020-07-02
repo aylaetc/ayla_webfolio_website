@@ -10,6 +10,7 @@ regions:
   preheader: 'Pre Header'
   header: 'Header'
   help: 'Help'
+  aside: 'Aside'
   content: 'Content'
   list: 'List'
   prefooter: 'Pre Footer'
