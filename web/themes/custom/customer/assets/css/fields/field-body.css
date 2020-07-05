@@ -72,6 +72,10 @@
     list-style: none;
     margin-bottom: 0.5em;
 }
+.project.default .layout-content.footer .field-body em{
+    font-family: 'Assistant', sans-serif;
+    font-weight: 400;
+}
 
 /* BLOCK CONTACT */
 #block-contact h2{

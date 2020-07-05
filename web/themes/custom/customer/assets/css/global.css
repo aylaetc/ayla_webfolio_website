@@ -23,7 +23,8 @@
 @import "blocks/block-mainpagecontent.css";
 
 /* Layout */
-@import "layouts/layout-project.css";
+@import "layouts/layout-project-default.css";
+@import "layouts/layout-project-gallery.css";
 @import "layouts/layout-project-teaser.css";
 @import "layouts/layout-about.css";
 @import "layouts/layout-webform.css";

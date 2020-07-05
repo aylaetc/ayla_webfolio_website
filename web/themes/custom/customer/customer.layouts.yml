@@ -26,6 +26,25 @@ layout-project-default:
     link:
       label: Link
 
+layout-project-gallery:
+  label: Project Gallery - Display
+  category: Customer
+  path: templates/layout
+  template: layout-project-gallery
+  regions:
+    content:
+      label: Content First
+    pictureheader:
+      label: Picture Header
+    contentsecond:
+      label: Content Second
+    picturefooter:
+      label: Picture Footer
+    contentthird:
+      label: Content Third
+    link:
+      label: Link
+
 layout-project-teaser:
   label: Project teaser - Display
   category: Customer

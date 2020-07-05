@@ -1,0 +1,44 @@
+{% if content %}
+
+    <article class="project gallery">
+
+        <div class="layout">
+
+            {% if content.content %}
+            <div class="layout-content header">
+                {{ content.content }}
+            </div>
+            {% endif %}
+
+            {% if content.pictureheader %}
+            <div class="layout-picture-header">
+                {{ content.pictureheader }}
+            </div>
+            {% endif %}
+
+            {% if content.contentsecond %}
+            <div class="layout-content content">
+                {{ content.contentsecond }}
+            </div>
+            {% endif %}
+            
+            {% if content.picturefooter %}
+            <div class="layout-picture-footer">
+                {{ content.picturefooter }}
+            </div>
+            {% endif %}
+
+            {% if content.contentthird %}
+            <div class="layout-content footer">
+                {% if content.link %}
+                    {{ content.link }}
+                {% endif %}
+                {{ content.contentthird }}
+            </div>
+            {% endif %}
+
+        </div>
+
+    </article>
+
+{% endif %}

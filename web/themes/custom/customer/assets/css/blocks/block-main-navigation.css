@@ -8,7 +8,8 @@
     font-size: 1.7em;
     margin-bottom: 0.5em;
 }
-.page-node-type-project #block-main-navigation ul li{
+.page-node-type-project #block-main-navigation ul li,
+.page-node-type-project-gallery #block-main-navigation ul li{
     color: #fff;
 }
 

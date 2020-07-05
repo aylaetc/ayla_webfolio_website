@@ -1,6 +1,6 @@
 
 /* mobile */
-.project.default .layout {
+.project.gallery .layout {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto;
@@ -24,40 +24,35 @@
 
 /* desktop */
 @media screen and (min-width: 850px) {
-    .project.default .layout {
+    .project.gallery .layout {
         display: grid;
-        grid-template-columns: 45% 55%;
-        grid-template-rows: 5;
+        grid-template-columns: 22.5% 22.5% 25% 30%;
+        grid-template-rows: auto;
     }
-    .project.default .layout-content{
+    .project.gallery .layout-content{
         padding: 2rem;
-        grid-column: 1/2;
+        grid-column: 1/3;
     }
-    
-    .project.default .layout-content.header{
+    .project.gallery .layout-content.header{
         grid-row: 1;
         z-index: 1;
         color: #fff;
-        align-self: flex-end;
         padding-bottom: 4em;
+        margin-top: 6em;
     }
-    .project.default .layout-picture-header{
+    .project.gallery .layout-picture-header{
         grid-row: 1;
-        grid-column: 1/3;
+        grid-column: 1/5;
         margin: 0 -10vw;
     }
-    .project.default .layout-content.content{
+    .project.gallery .layout-content.content{
         grid-row: 2;
     }
-    .project.default .layout-picture-footer{
+    .project.gallery .layout-picture-footer{
         grid-row: 4;
-        grid-column: 1/3;
-        margin: 0 -10vw;
+        grid-column: 1/4;
     }
-    .project.default .layout-picture-footer .field-picture li:last-child{
-        margin-top: -8vw;
-    }
-    .project.default .layout-content.footer{
+    .project.gallery .layout-content.footer{
         grid-row: 5;
     }
 }
