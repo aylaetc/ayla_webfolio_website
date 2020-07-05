@@ -1,0 +1,133 @@
+uuid: 6d636d26-af2f-495a-9156-23d94e91081e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.project_gallery.field_body
+    - field.field.node.project_gallery.field_body_footer
+    - field.field.node.project_gallery.field_body_header
+    - field.field.node.project_gallery.field_link
+    - field.field.node.project_gallery.field_masonry_footer
+    - field.field.node.project_gallery.field_masonry_header
+    - field.field.node.project_gallery.field_picture
+    - field.field.node.project_gallery.field_project_types
+    - field.field.node.project_gallery.field_subtitle
+    - node.type.project_gallery
+  module:
+    - ds
+    - image
+    - link
+    - text
+    - user
+third_party_settings:
+  ds:
+    layout:
+      id: layout-project-gallery
+      library: null
+      disable_css: false
+      entity_classes: all_classes
+      settings:
+        label: ''
+    regions:
+      content:
+        - field_project_types
+        - node_title
+        - field_subtitle
+        - field_body_header
+      pictureheader:
+        - field_masonry_header
+      contentsecond:
+        - field_body
+      picturefooter:
+        - field_masonry_footer
+      contentthird:
+        - field_body_footer
+      link:
+        - field_link
+    fields:
+      node_title:
+        plugin_id: node_title
+        weight: 1
+        label: hidden
+        formatter: default
+        settings:
+          wrapper: ''
+          class: ''
+          link: false
+id: node.project_gallery.default
+targetEntityType: node
+bundle: project_gallery
+mode: default
+content:
+  field_body:
+    type: text_summary_or_trimmed
+    weight: 5
+    region: contentsecond
+    label: above
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+  field_body_footer:
+    type: text_summary_or_trimmed
+    weight: 7
+    region: contentthird
+    label: above
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+  field_body_header:
+    weight: 3
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_link:
+    type: link
+    weight: 8
+    region: link
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+  field_masonry_footer:
+    type: image
+    weight: 6
+    region: picturefooter
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+  field_masonry_header:
+    type: image
+    weight: 4
+    region: pictureheader
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+  field_project_types:
+    weight: 0
+    label: hidden
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_subtitle:
+    weight: 2
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden:
+  field_picture: true
+  links: true

@@ -1,36 +1,36 @@
-uuid: b6a379d6-407a-4d67-b3da-4e4656900875
+uuid: 15213aa5-8f43-48cf-8af0-cab7d4a5441c
 langcode: en
 status: true
 dependencies:
   config:
-    - field.field.node.project.field_body
-    - field.field.node.project.field_body_footer
-    - field.field.node.project.field_body_header
-    - field.field.node.project.field_link
-    - field.field.node.project.field_masonry_footer
-    - field.field.node.project.field_masonry_header
-    - field.field.node.project.field_picture
-    - field.field.node.project.field_project_types
-    - field.field.node.project.field_subtitle
+    - field.field.node.project_gallery.field_body
+    - field.field.node.project_gallery.field_body_footer
+    - field.field.node.project_gallery.field_body_header
+    - field.field.node.project_gallery.field_link
+    - field.field.node.project_gallery.field_masonry_footer
+    - field.field.node.project_gallery.field_masonry_header
+    - field.field.node.project_gallery.field_picture
+    - field.field.node.project_gallery.field_project_types
+    - field.field.node.project_gallery.field_subtitle
     - image.style.thumbnail
-    - node.type.project
+    - node.type.project_gallery
   module:
     - image
     - link
     - text
-id: node.project.default
+id: node.project_gallery.default
 targetEntityType: node
-bundle: project
+bundle: project_gallery
 mode: default
 content:
   created:
     type: datetime_timestamp
-    weight: 12
+    weight: 11
     region: content
     settings: {  }
     third_party_settings: {  }
   field_body:
-    weight: 6
+    weight: 5
     settings:
       rows: 9
       summary_rows: 3
@@ -40,7 +40,7 @@ content:
     type: text_textarea_with_summary
     region: content
   field_body_footer:
-    weight: 10
+    weight: 9
     settings:
       rows: 9
       summary_rows: 3
@@ -60,7 +60,7 @@ content:
     type: text_textarea_with_summary
     region: content
   field_link:
-    weight: 9
+    weight: 8
     settings:
       placeholder_url: ''
       placeholder_title: ''
@@ -68,7 +68,7 @@ content:
     type: link_default
     region: content
   field_masonry_footer:
-    weight: 8
+    weight: 7
     settings:
       progress_indicator: throbber
       preview_image_style: thumbnail
@@ -76,7 +76,7 @@ content:
     type: image_image
     region: content
   field_masonry_header:
-    weight: 5
+    weight: 6
     settings:
       progress_indicator: throbber
       preview_image_style: thumbnail
@@ -109,7 +109,7 @@ content:
     type: boolean_checkbox
     settings:
       display_label: true
-    weight: 11
+    weight: 10
     region: content
     third_party_settings: {  }
   title:

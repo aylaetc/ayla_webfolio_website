@@ -1,0 +1,15 @@
+uuid: d3d56812-190f-4531-8e9a-6638e237a87c
+langcode: en
+status: true
+dependencies: {  }
+name: square
+label: 'Square 300x300'
+effects:
+  1867d1c8-9940-418d-b3ce-aaa73c4c9131:
+    uuid: 1867d1c8-9940-418d-b3ce-aaa73c4c9131
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 300
+      height: 300
+      anchor: center-center

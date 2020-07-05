@@ -1,0 +1,51 @@
+uuid: cc3ec054-ebe8-4e24-b915-b85a3849d340
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_project_types
+    - node.type.project_gallery
+    - taxonomy.vocabulary.project_type
+  content:
+    - 'taxonomy_term:project_type:01d6c2f6-d8c5-4968-b0ef-c413be7e81c3'
+    - 'taxonomy_term:project_type:0ddbd0a2-329e-4922-be7c-5b7998b2993b'
+    - 'taxonomy_term:project_type:2d4c6e40-5a4a-42af-aff5-7b2b6e323e90'
+    - 'taxonomy_term:project_type:6b51c647-fe5e-4112-b49e-acad8f800ca5'
+    - 'taxonomy_term:project_type:6e78c4f5-a074-46e9-b364-405b4758b4be'
+    - 'taxonomy_term:project_type:763db0fc-ebc4-4e0a-aa5e-bce8a31d9880'
+    - 'taxonomy_term:project_type:b848218d-d450-4c3a-b90c-fe03e60f2fc1'
+id: node.project_gallery.field_project_types
+field_name: field_project_types
+entity_type: node
+bundle: project_gallery
+label: 'Project types'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    target_uuid: 2d4c6e40-5a4a-42af-aff5-7b2b6e323e90
+  -
+    target_uuid: b848218d-d450-4c3a-b90c-fe03e60f2fc1
+  -
+    target_uuid: 01d6c2f6-d8c5-4968-b0ef-c413be7e81c3
+  -
+    target_uuid: 763db0fc-ebc4-4e0a-aa5e-bce8a31d9880
+  -
+    target_uuid: 0ddbd0a2-329e-4922-be7c-5b7998b2993b
+  -
+    target_uuid: 6e78c4f5-a074-46e9-b364-405b4758b4be
+  -
+    target_uuid: 6b51c647-fe5e-4112-b49e-acad8f800ca5
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      project_type: project_type
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

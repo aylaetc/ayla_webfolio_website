@@ -1,0 +1,19 @@
+uuid: 53c08d01-de68-480b-abdf-be0c3d88780a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_subtitle
+    - node.type.project_gallery
+id: node.project_gallery.field_subtitle
+field_name: field_subtitle
+entity_type: node
+bundle: project_gallery
+label: Subtitle
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

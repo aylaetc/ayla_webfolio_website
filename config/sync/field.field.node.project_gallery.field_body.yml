@@ -1,0 +1,23 @@
+uuid: 82f55e70-2a6e-487e-80d6-a59bd09c2a86
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_body
+    - node.type.project_gallery
+  module:
+    - text
+id: node.project_gallery.field_body
+field_name: field_body
+entity_type: node
+bundle: project_gallery
+label: 'Contenu principal'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+  required_summary: false
+field_type: text_with_summary

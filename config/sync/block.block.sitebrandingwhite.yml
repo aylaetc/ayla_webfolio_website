@@ -26,6 +26,6 @@ settings:
 visibility:
   request_path:
     id: request_path
-    pages: /node/1
-    negate: false
+    pages: "<front>\r\n/realisations\r\n/node/2\r\n/node/9\r\n/node/8"
+    negate: true
     context_mapping: {  }

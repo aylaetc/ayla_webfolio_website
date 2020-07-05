@@ -1,20 +1,19 @@
-uuid: b1e5b1ab-0d9c-4bc7-b3ff-13456f25c603
+uuid: 17ba0e4a-3391-4074-a056-def6b77f8e25
 langcode: en
 status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
-    - field.field.node.project.field_body
-    - field.field.node.project.field_body_footer
-    - field.field.node.project.field_body_header
-    - field.field.node.project.field_link
-    - field.field.node.project.field_masonry_footer
-    - field.field.node.project.field_masonry_header
-    - field.field.node.project.field_picture
-    - field.field.node.project.field_project_types
-    - field.field.node.project.field_subtitle
-    - image.style.square
-    - node.type.project
+    - field.field.node.project_gallery.field_body
+    - field.field.node.project_gallery.field_body_footer
+    - field.field.node.project_gallery.field_body_header
+    - field.field.node.project_gallery.field_link
+    - field.field.node.project_gallery.field_masonry_footer
+    - field.field.node.project_gallery.field_masonry_header
+    - field.field.node.project_gallery.field_picture
+    - field.field.node.project_gallery.field_project_types
+    - field.field.node.project_gallery.field_subtitle
+    - node.type.project_gallery
   module:
     - ds
     - image
@@ -56,27 +55,26 @@ third_party_settings:
           wrapper: ''
           class: ''
           link: false
-id: node.project.teaser
+id: node.project_gallery.teaser
 targetEntityType: node
-bundle: project
+bundle: project_gallery
 mode: teaser
 content:
   field_picture:
     type: image
     weight: 0
     region: picture
-    label: hidden
+    label: above
     settings:
-      image_style: square
+      image_style: ''
       image_link: ''
     third_party_settings: {  }
   field_project_types:
-    type: entity_reference_label
+    type: entity_reference_entity_id
     weight: 2
     region: content
-    label: hidden
-    settings:
-      link: false
+    label: above
+    settings: {  }
     third_party_settings:
       ds:
         ds_limit: '2'
