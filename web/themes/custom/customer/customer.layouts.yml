@@ -19,10 +19,12 @@ layout-project-default:
       label: Picture Header
     contentsecond:
       label: Content Second
-    picturefooter:
-      label: Picture Footer
+    picturecontent:
+      label: Picture Content
     contentthird:
       label: Content Third
+    picturefooter:
+      label: Picture Footer
     link:
       label: Link
 

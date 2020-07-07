@@ -22,9 +22,9 @@
             </div>
             {% endif %}
             
-            {% if content.picturefooter %}
-            <div class="layout-picture-footer">
-                {{ content.picturefooter }}
+            {% if content.picturecontent %}
+            <div class="layout-picture-content">
+                {{ content.picturecontent }}
             </div>
             {% endif %}
 
@@ -34,6 +34,12 @@
                     {{ content.link }}
                 {% endif %}
                 {{ content.contentthird }}
+            </div>
+            {% endif %}
+
+            {% if content.picturefooter %}
+            <div class="layout-picture-footer">
+                {{ content.picturefooter }}
             </div>
             {% endif %}
 
