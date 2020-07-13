@@ -41,6 +41,9 @@
     grid-row: 5;
     z-index: 1;
 }
+.project.default .layout-picture-content .field-picture li:nth-child(2){
+    margin-top: -8vw;
+}
 
 /* tablet */
 @media screen and (min-width: 980px){
@@ -90,9 +93,6 @@
 
     .project.default .layout-content.content{
         margin-bottom: 0;
-    }
-    .project.default .layout-picture-content .field-picture li:nth-child(2){
-        margin-top: -8vw;
     }
 
 }

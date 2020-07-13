@@ -11,3 +11,11 @@
 //       }
 //     }
 //   });
+
+
+$(document).ready(function(){
+    $("#icon-menu").click(function(){
+        $("#icon-menu").toggleClass("active");
+        $("#block-main-navigation").toggleClass("menu-mobile");
+    });
+});

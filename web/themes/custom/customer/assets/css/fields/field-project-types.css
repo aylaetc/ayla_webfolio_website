@@ -1,10 +1,14 @@
 /* PROJECT DEFAULT & TEASER*/
 
-.project.default .field-project-types,
-.project.teaser .field-project-types  {
+.project.default .field-project-types {
     display: flex;
     margin-bottom: 1.5em;
 }
+.project.teaser .field-project-types  {
+    display: flex;
+    margin-bottom: 2em;
+}
+
 .project.default .field-project-types,
 .project.gallery .field-project-types{
     display: flex;
