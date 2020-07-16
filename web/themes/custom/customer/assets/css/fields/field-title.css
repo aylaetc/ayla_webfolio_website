@@ -11,4 +11,9 @@
 .project.teaser .field-title-1 {
     font-size: 1.5em;
 }
-
+#block-views-block-projects-block h2,
+#block-views-block-projects-block-project h2{
+    font-family: 'california_dreamer_sansRg';
+    font-size: 1.7em;
+    text-align: center;
+}
