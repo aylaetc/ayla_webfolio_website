@@ -24,12 +24,20 @@
 
 /* desktop */
 @media screen and (min-width: 768px) {
-  .region-footer .region {
-    display: flex;
-    justify-content: space-evenly;
+  .region-footer {
     position: fixed;
     bottom: 0;
     z-index: 800;
-    width: 100%;
+  }
+  .region-footer .region {
+    display: flex;
+    justify-content: space-evenly;
+    z-index: 800;
+  }
+}
+
+@media screen and (min-width: 1360px) {
+  .region-footer {
+    width: 40vw;
   }
 }
