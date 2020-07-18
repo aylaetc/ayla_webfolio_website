@@ -37,7 +37,7 @@
   font-size: 1.2em;
 }
 
-@media screen and (max-width: 940px) {
+@media screen and (max-width: 767px) {
   .project.teaser .field-project-types li {
     font-size: 0.9em;
   }

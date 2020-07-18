@@ -1,3 +1,9 @@
+.field-picture img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
 .field-picture li,
 .item-list li {
   list-style: none;
@@ -57,12 +63,11 @@
 .about .field-picture li img,
 .webform .field-picture li img,
 .project.gallery .layout-picture-footer .field-picture li img {
-  display: block;
   width: 100%;
 }
 
 /* desktop */
-@media screen and (min-width: 850px) {
+@media screen and (min-width: 768px) {
   .about .field-picture li,
   .webform .field-picture li {
     padding: 1em;
@@ -98,15 +103,7 @@
 /* REALISATION */
 /* mobile */
 
-@media screen and (max-width: 624px) {
-  .path-realisations .item-list > ul {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-}
-
-@media screen and (min-width: 625px) {
+@media screen and (min-width: 641px) {
   .path-realisations .item-list > ul {
     display: grid;
     grid-template-columns: 2fr 2fr 1fr 2fr 2fr;
@@ -142,11 +139,7 @@
 }
 
 /* desktop */
-@media screen and (min-width: 850px) {
-  .path-realisations .item-list .layout-content {
-    padding: 1em;
-  }
-
+@media screen and (min-width: 768px) {
   /* 2,6,10 */
   .path-realisations .item-list > ul > li:nth-child(4n-2) {
     margin-top: 2em;

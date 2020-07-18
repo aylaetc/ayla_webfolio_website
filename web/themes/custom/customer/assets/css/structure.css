@@ -30,14 +30,18 @@ body {
   padding-top: 0;
 }
 
+.project.default .layout-content.header {
+  margin-top: 6em;
+}
 
-/* desktop */
-@media screen and (min-width: 850px) {
+
+/* tablet et +  */
+@media screen and (min-width: 768px) {
   body {
-    padding-bottom: 6em;
+    padding-bottom: 8em;
   }
   .path-frontpage, .page-node-type-project {
-    padding-bottom: 6em;
+    padding-bottom: 8em;
   }
 }
 
@@ -78,14 +82,49 @@ ul li {
 }
 
 /* ---------------------- REGIONS */
-.wrapper {
-  width: 80vw;
-  margin: 0 auto;
-}
 
-@media screen and (max-width: 960px) {
-  .container {
-    width: 95vw;
+@media screen and (max-width: 767px) {
+  .wrapper {
+    width: 90vw;
     margin: 0 auto;
   }
 }
+
+@media screen and (min-width: 768px) {
+  .wrapper {
+    width: 80vw;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .wrapper {
+    width: 70vw;
+  }
+  #block-main-navigation {
+    width: 15vw;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  :root {
+    --margin-neg : -5vw;
+    --padding-neg : 5vw;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  :root {
+    --margin-neg : -10vw;
+    --padding-neg : 10vw;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  :root {
+    --margin-neg : -15vw;
+    --padding-neg : 15vw;
+  }
+}
+
+

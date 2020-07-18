@@ -6,7 +6,7 @@
     background-size: contain;
     justify-content: center;
 }
-@media screen and (min-width: 750px){
+@media screen and (min-width: 768px){
     .path-frontpage .region-header{
         justify-content: left;
     }

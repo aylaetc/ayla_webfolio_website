@@ -1,29 +1,15 @@
-.region-preheader{
-    background-color: #fff;
-    margin: 0 -10vw;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    padding: 0 1em;
-    z-index: 1000;
-}
-.page-node-type-project .region-preheader,
-.page-node-type-project-gallery .region-preheader{
-    background-color: transparent;
-    margin: 0 -10vw;
-    position: absolute;
-    width: 100%;
-    top: 0;
-    padding: 0 1em;
-    z-index: 1000;
+.region-preheader {
+  background-color: #fff;
+  margin: 0 var(--margin-neg);
+  padding: 0 var(--padding-neg);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
 }
 
-@media screen and (min-width: 1192px){
-    .region-preheader{
-        padding: 0 8em;
-    }
-    .page-node-type-project .region-preheader,
-    .page-node-type-project-gallery .region-preheader{
-    padding: 0 8em;
-}
+.page-node-type-project .region-preheader,
+.page-node-type-project-gallery .region-preheader {
+  background-color: transparent;
+  position: absolute;
 }

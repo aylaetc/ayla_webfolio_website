@@ -2,7 +2,7 @@
 /* .region-content{
     margin-top: 0;
 } */
-@media screen and (min-width: 850px) {
+@media screen and (min-width: 768px) {
 
     .page-node-type-page .region-content{
         margin-right: 10em ;

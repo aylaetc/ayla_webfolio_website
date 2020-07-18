@@ -2,8 +2,7 @@
 .region-footer .region {
   padding: 1em;
   background-color: #fff;
-  margin-left: -10vw;
-  margin-right: -10vw;
+  margin: 0 var(--margin-neg);
 }
 
 .region-footer p {
@@ -11,9 +10,12 @@
 }
 
 /* mobile */
-@media screen and (max-width: 849px) {
+@media screen and (max-width: 767px) {
   .region-footer {
-    margin-top: 2em;
+    margin-top: 6em;
+  }
+  .region-footer .region {
+    padding: 5vw;
   }
   .region-footer .region .field-body {
     margin-bottom: .5em;
@@ -21,7 +23,7 @@
 }
 
 /* desktop */
-@media screen and (min-width: 850px) {
+@media screen and (min-width: 768px) {
   .region-footer .region {
     display: flex;
     justify-content: space-evenly;

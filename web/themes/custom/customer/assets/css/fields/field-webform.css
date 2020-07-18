@@ -1,9 +1,12 @@
-.field-webform form div:not(#edit-actions) > input,
+.field-webform input[type="text"],
+.field-webform input[type="email"],
+.field-webform input[type="tel"],
+.field-webform input[type="password"],
 .field-webform textarea{
     width: 100%;
     display: flex;
     border-bottom: 1px solid #000;
-    padding-bottom: 0.2em;
+    padding: 1em 0;
     margin-bottom: 2em;
     flex: 1;
     resize: none;
