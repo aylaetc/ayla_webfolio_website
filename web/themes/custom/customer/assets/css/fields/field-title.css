@@ -1,19 +1,26 @@
 .field-title-1 {
-    font-family: 'california_dreamer_sansRg';
-    font-size: 3em;
+  font-family: 'california_dreamer_sansRg';
+  font-size: 3em;
+  line-height: 1em;
+  padding-bottom: 1.5rem;
 }
-.path-frontpage .field-title-1{
-    font-size: 1.7em;
+
+.path-frontpage .field-title-1 {
+  font-size: 1.7em;
 }
+
 .project.default .field-title-1 {
-    line-height: 1em;
+  line-height: 1em;
 }
+
 .project.teaser .field-title-1 {
-    font-size: 1.5em;
+  font-size: 1.5em;
 }
+
 #block-views-block-projects-block h2,
-#block-views-block-projects-block-project h2{
-    font-family: 'california_dreamer_sansRg';
-    font-size: 1.7em;
-    text-align: center;
+#block-views-block-projects-block-project h2 {
+  font-family: 'california_dreamer_sansRg';
+  font-size: 1.7em;
+  text-align: center;
+  line-height: 1em;
 }

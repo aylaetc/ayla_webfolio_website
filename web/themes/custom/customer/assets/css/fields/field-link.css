@@ -1,5 +1,27 @@
-.field-link{
+div.field-link > a {
     font-family: 'california_dreamer_sansRg';
     font-size: 1.5em;
     color: #c69f70;
 }
+
+ul.field-link {
+  margin-bottom: 1em;
+}
+ul.field-link li {
+  list-style-type: none;
+  margin-bottom: 1px;
+}
+
+ul.field-link li a {
+  font-family: 'california_dreamer_sansRg';
+  font-size: 1.5em;
+  color: #c69f70;
+  display: block;
+  background-color: rgba(0,0,0, .05);
+}
+ul.field-link li a:before {
+  content: ">";
+  margin-left: .5em;
+  margin-right: .5em;
+}
+

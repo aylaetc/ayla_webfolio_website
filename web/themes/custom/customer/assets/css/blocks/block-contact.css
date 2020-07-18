@@ -1,11 +1,11 @@
 /* mobile */
 #block-contact{
-    padding: 2em;
+    /*padding: 2em;*/
     margin-bottom: 10em;
 }
 
 /* tablet */
-@media screen and (min-width: 640px) and (max-width: 1200px) {
+@media screen and (min-width: 640px) and (max-width: 1199px) {
     #block-contact {
         padding: 0 4em;
     }

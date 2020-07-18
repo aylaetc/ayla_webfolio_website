@@ -1,20 +1,43 @@
-@media screen and (max-width: 980px){
-    #block-branding-home img{
-        margin: auto;
-    }
+[id*="block-branding"] > a,
+[id*="block-sitebranding"] > a {
+  display: block;
 }
+
 #block-branding img,
-#block-sitebrandingwhite img{
-    display: block;
-    width: auto;
+#block-sitebrandingwhite img {
+  display: block;
+  width: auto;
+}
+
+@media screen and (max-width: 1191px) {
+  #block-branding img,
+  #block-sitebrandingwhite img{
+    height: 5em;
+    padding: .5em;
+  }
+}
+
+
+@media screen and (min-width: 1192px) {
+  #block-branding img,
+  #block-sitebrandingwhite img{
     height: 7em;
     padding: 1em;
+  }
 }
-#block-branding-home img{
-    display: block;
-    width: auto;
-    height: 10em;
-}
+
 #block-branding-home{
     font-family: 'california_dreamer_sansRg';
+}
+
+#block-branding-home img{
+  display: block;
+  width: auto;
+  height: 10em;
+}
+
+@media screen and (max-width: 980px){
+  #block-branding-home img{
+    margin: auto;
+  }
 }
