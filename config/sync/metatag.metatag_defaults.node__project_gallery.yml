@@ -1,0 +1,9 @@
+uuid: 8b77877c-6e9f-4dcd-bcda-3b84b1a5a42e
+langcode: en
+status: true
+dependencies: {  }
+id: node__project_gallery
+label: 'Content: Project gallery'
+tags:
+  title: '[node:title]'
+  description: '[node:field_teaser]'

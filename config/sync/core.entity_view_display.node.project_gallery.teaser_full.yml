@@ -10,9 +10,11 @@ dependencies:
     - field.field.node.project_gallery.field_link
     - field.field.node.project_gallery.field_masonry_footer
     - field.field.node.project_gallery.field_masonry_header
+    - field.field.node.project_gallery.field_matatag
     - field.field.node.project_gallery.field_picture
     - field.field.node.project_gallery.field_project_types
     - field.field.node.project_gallery.field_subtitle
+    - field.field.node.project_gallery.field_teaser
     - node.type.project_gallery
   module:
     - ds
@@ -95,5 +97,7 @@ hidden:
   field_link: true
   field_masonry_footer: true
   field_masonry_header: true
+  field_matatag: true
   field_subtitle: true
+  field_teaser: true
   links: true

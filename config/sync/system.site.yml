@@ -3,8 +3,8 @@ name: 'Ayla etc.'
 mail: hello@aylaetc.fr
 slogan: 'Webdesign, graphisme, etc.'
 page:
-  403: ''
-  404: ''
+  403: /node/19
+  404: /node/18
   front: /node/3
 admin_compact_mode: false
 weight_select_max: 100

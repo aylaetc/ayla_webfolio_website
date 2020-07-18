@@ -7,6 +7,7 @@ dependencies:
     - field.field.node.webform.field_body
     - field.field.node.webform.field_masonry_footer
     - field.field.node.webform.field_masonry_header
+    - field.field.node.webform.field_matatag
     - field.field.node.webform.webform
     - node.type.webform
   module:
@@ -27,4 +28,5 @@ hidden:
   field_body: true
   field_masonry_footer: true
   field_masonry_header: true
+  field_matatag: true
   webform: true

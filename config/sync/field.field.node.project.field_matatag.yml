@@ -1,0 +1,21 @@
+uuid: a9a3daa6-961c-4a2f-9ad1-cee37ce07faa
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_matatag
+    - node.type.project
+  module:
+    - metatag
+id: node.project.field_matatag
+field_name: field_matatag
+entity_type: node
+bundle: project
+label: Matatag
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: metatag

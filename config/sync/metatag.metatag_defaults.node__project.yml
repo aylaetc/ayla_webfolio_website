@@ -1,0 +1,9 @@
+uuid: 8505041a-20a1-4e31-920a-d04ed90e18be
+langcode: en
+status: true
+dependencies: {  }
+id: node__project
+label: 'Content: Project'
+tags:
+  title: '[node:title]'
+  description: '[node:field_teaser]'

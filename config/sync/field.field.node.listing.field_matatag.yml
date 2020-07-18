@@ -1,0 +1,21 @@
+uuid: 26527ba0-49ba-46e4-88fe-34e1570e2e77
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_matatag
+    - node.type.listing
+  module:
+    - metatag
+id: node.listing.field_matatag
+field_name: field_matatag
+entity_type: node
+bundle: listing
+label: Matatag
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: metatag

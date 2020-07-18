@@ -4,8 +4,10 @@ status: true
 dependencies:
   config:
     - field.field.node.listing.field_body
+    - field.field.node.listing.field_matatag
     - node.type.listing
   module:
+    - metatag
     - text
     - user
 id: node.listing.default
@@ -19,6 +21,13 @@ content:
     settings: {  }
     third_party_settings: {  }
     type: text_default
+    region: content
+  field_matatag:
+    weight: 103
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: metatag_empty_formatter
     region: content
   links:
     weight: 100

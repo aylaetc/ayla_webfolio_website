@@ -1,0 +1,25 @@
+uuid: 614f7534-c7e2-4dd5-9872-803d0298ba44
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: basic_alias
+label: 'Basic alias'
+type: 'canonical_entities:node'
+pattern: '/[node:title]'
+selection_criteria:
+  d08f7aea-9b9d-4f06-bd77-8b19cbc70d3a:
+    id: node_type
+    bundles:
+      about: about
+      homepage: homepage
+      page: page
+      webform: webform
+    negate: false
+    context_mapping:
+      node: node
+    uuid: d08f7aea-9b9d-4f06-bd77-8b19cbc70d3a
+selection_logic: and
+weight: -5
+relationships: {  }

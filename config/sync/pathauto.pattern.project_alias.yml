@@ -1,0 +1,23 @@
+uuid: 07287827-ca91-463e-b01d-e0859378bbe7
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: project_alias
+label: 'Project alias'
+type: 'canonical_entities:node'
+pattern: '/realisations/[node:title]'
+selection_criteria:
+  f1c5f745-1177-4241-88b0-4589b081c0bf:
+    id: node_type
+    bundles:
+      project: project
+      project_gallery: project_gallery
+    negate: false
+    context_mapping:
+      node: node
+    uuid: f1c5f745-1177-4241-88b0-4589b081c0bf
+selection_logic: and
+weight: -5
+relationships: {  }

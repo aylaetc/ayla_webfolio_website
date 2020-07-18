@@ -22,6 +22,10 @@ body {
     font-family: 'Assistant', sans-serif;
     font-weight: 300;
     font-size: 100%;
+    margin: 6em 0;
+}
+.path-frontpage, .page-node-type-project{
+    margin: 0 0 6em 0;
 }
 /* ---------------------- RESETS */
 

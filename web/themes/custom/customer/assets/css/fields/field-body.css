@@ -18,6 +18,7 @@
 }
 .home .field-body p{
     margin-bottom: 1em;
+    line-height: 30px;
 }
 .home .field-body p:last-child{
     color: #c69f70;

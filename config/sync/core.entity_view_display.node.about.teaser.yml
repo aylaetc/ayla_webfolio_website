@@ -9,6 +9,7 @@ dependencies:
     - field.field.node.about.field_body_header
     - field.field.node.about.field_masonry_footer
     - field.field.node.about.field_masonry_header
+    - field.field.node.about.field_matatag
     - node.type.about
   module:
     - user
@@ -28,3 +29,4 @@ hidden:
   field_body_header: true
   field_masonry_footer: true
   field_masonry_header: true
+  field_matatag: true

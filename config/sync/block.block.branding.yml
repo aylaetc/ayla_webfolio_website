@@ -23,6 +23,6 @@ settings:
 visibility:
   request_path:
     id: request_path
-    pages: "/realisations\r\n/node/2\r\n/node/9\r\n/node/8"
+    pages: "/realisations\r\n/contact\r\n/histoire\r\n/mentions-legales\r\n/acces-refuse\r\n/page-non-trouvee"
     negate: false
     context_mapping: {  }

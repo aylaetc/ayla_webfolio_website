@@ -9,6 +9,7 @@
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto;
+    margin-bottom: 2em;
 
 }
 .project.default .layout-picture-header{
@@ -25,6 +26,8 @@
     margin: 0 -10vw;
     grid-row: 4;
     margin-bottom: 2em;
+    position: relative;
+    z-index: 100;
 }
 .project.default .layout-content.content{
     grid-row: 3;

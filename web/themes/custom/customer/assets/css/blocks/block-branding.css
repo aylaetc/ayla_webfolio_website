@@ -1,3 +1,8 @@
+@media screen and (max-width: 980px){
+    #block-branding-home img{
+        margin: auto;
+    }
+}
 #block-branding img,
 #block-sitebrandingwhite img{
     display: block;

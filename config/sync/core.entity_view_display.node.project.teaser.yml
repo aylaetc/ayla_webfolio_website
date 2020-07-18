@@ -8,11 +8,14 @@ dependencies:
     - field.field.node.project.field_body_footer
     - field.field.node.project.field_body_header
     - field.field.node.project.field_link
+    - field.field.node.project.field_masonry_content
     - field.field.node.project.field_masonry_footer
     - field.field.node.project.field_masonry_header
+    - field.field.node.project.field_matatag
     - field.field.node.project.field_picture
     - field.field.node.project.field_project_types
     - field.field.node.project.field_subtitle
+    - field.field.node.project.field_teaser
     - image.style.square
     - node.type.project
   module:
@@ -85,7 +88,10 @@ hidden:
   field_body_footer: true
   field_body_header: true
   field_link: true
+  field_masonry_content: true
   field_masonry_footer: true
   field_masonry_header: true
+  field_matatag: true
   field_subtitle: true
+  field_teaser: true
   links: true

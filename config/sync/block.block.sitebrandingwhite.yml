@@ -6,7 +6,7 @@ dependencies:
     - 'block_content:basic:1d96eb21-564f-435e-8216-3732e71b7741'
   module:
     - block_content
-    - system
+    - node
   theme:
     - customer
 id: sitebrandingwhite
@@ -24,8 +24,11 @@ settings:
   info: ''
   view_mode: full
 visibility:
-  request_path:
-    id: request_path
-    pages: "<front>\r\n/realisations\r\n/node/2\r\n/node/9\r\n/node/8"
-    negate: true
-    context_mapping: {  }
+  node_type:
+    id: node_type
+    bundles:
+      project: project
+      project_gallery: project_gallery
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

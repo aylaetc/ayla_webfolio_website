@@ -5,6 +5,7 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.listing.field_body
+    - field.field.node.listing.field_matatag
     - node.type.listing
   module:
     - user
@@ -20,3 +21,4 @@ content:
     region: content
 hidden:
   field_body: true
+  field_matatag: true

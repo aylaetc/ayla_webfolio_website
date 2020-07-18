@@ -6,11 +6,13 @@ dependencies:
     - field.field.node.webform.field_body
     - field.field.node.webform.field_masonry_footer
     - field.field.node.webform.field_masonry_header
+    - field.field.node.webform.field_matatag
     - field.field.node.webform.webform
     - node.type.webform
   module:
     - ds
     - image
+    - metatag
     - text
     - user
     - webform
@@ -75,6 +77,13 @@ content:
       image_style: ''
       image_link: ''
     third_party_settings: {  }
+  field_matatag:
+    weight: 5
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: metatag_empty_formatter
+    region: content
   webform:
     weight: 2
     label: hidden

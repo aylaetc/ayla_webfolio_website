@@ -9,14 +9,17 @@ dependencies:
     - field.field.node.project_gallery.field_link
     - field.field.node.project_gallery.field_masonry_footer
     - field.field.node.project_gallery.field_masonry_header
+    - field.field.node.project_gallery.field_matatag
     - field.field.node.project_gallery.field_picture
     - field.field.node.project_gallery.field_project_types
     - field.field.node.project_gallery.field_subtitle
+    - field.field.node.project_gallery.field_teaser
     - node.type.project_gallery
   module:
     - ds
     - image
     - link
+    - metatag
     - text
     - user
 third_party_settings:
@@ -112,6 +115,13 @@ content:
       image_style: ''
       image_link: ''
     third_party_settings: {  }
+  field_matatag:
+    weight: 9
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: metatag_empty_formatter
+    region: content
   field_project_types:
     weight: 0
     label: hidden
@@ -127,6 +137,13 @@ content:
       link_to_entity: false
     third_party_settings: {  }
     type: string
+    region: content
+  field_teaser:
+    weight: 10
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
     region: content
 hidden:
   field_picture: true

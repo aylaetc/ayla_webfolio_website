@@ -21,18 +21,12 @@
     padding:0 1em;
     margin-top: -2em;
 }
-
-/* tablet */
-@media screen and (min-width: 640px) and (max-width: 1200px) {
-
-}
-
 /* desktop */
 @media screen and (min-width: 850px) {
     .about .layout {
         display: grid;
         grid-template-columns: 60% 40%;
-        grid-template-rows: auto 100%;
+        grid-template-rows: auto;
         margin-left: -10vw;
         padding-right: 10vw;
     }

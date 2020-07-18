@@ -1,0 +1,33 @@
+uuid: b17f8d57-825b-4799-bb8a-72eb74035212
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.projects
+  module:
+    - node
+    - views
+  theme:
+    - customer
+id: views_block__projects_block_project
+theme: customer
+region: list
+weight: 0
+provider: null
+plugin: 'views_block:projects-block'
+settings:
+  id: 'views_block:projects-block'
+  label: 'Découvrir d''autres réalisations'
+  provider: views
+  label_display: visible
+  views_label: 'Découvrir d''autres réalisations'
+  items_per_page: none
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      project: project
+      project_gallery: project_gallery
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

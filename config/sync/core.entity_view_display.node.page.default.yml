@@ -4,9 +4,11 @@ status: true
 dependencies:
   config:
     - field.field.node.page.field_body
+    - field.field.node.page.field_matatag
     - node.type.page
   module:
     - ds
+    - metatag
     - text
     - user
 third_party_settings:
@@ -45,6 +47,13 @@ content:
     settings: {  }
     third_party_settings: {  }
     type: text_default
+    region: content
+  field_matatag:
+    weight: 2
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: metatag_empty_formatter
     region: content
 hidden:
   links: true

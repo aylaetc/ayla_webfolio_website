@@ -30,3 +30,17 @@
     padding: 0 0.5em 0 0.8em;
 }
 
+.project.default .field-project-types li,
+.project.teaser .field-project-types li,
+.project.gallery .field-project-types li {
+    font-family: 'california_dreamer_sansRg';
+    list-style: none;
+    font-size: 1.2em;
+} 
+
+@media screen and (max-width: 940px){
+    .project.teaser .field-project-types li {
+        font-size: 0.9em;
+    } 
+}
+

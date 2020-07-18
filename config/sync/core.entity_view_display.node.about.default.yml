@@ -8,10 +8,12 @@ dependencies:
     - field.field.node.about.field_body_header
     - field.field.node.about.field_masonry_footer
     - field.field.node.about.field_masonry_header
+    - field.field.node.about.field_matatag
     - node.type.about
   module:
     - ds
     - image
+    - metatag
     - text
     - user
 third_party_settings:
@@ -87,5 +89,12 @@ content:
     third_party_settings: {  }
     type: image
     region: pictureheader
+  field_matatag:
+    weight: 6
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: metatag_empty_formatter
+    region: content
 hidden:
   links: true

@@ -1,4 +1,4 @@
-.field-webform form > div:not(#edit-actions) > input,
+.field-webform form div:not(#edit-actions) > input,
 .field-webform textarea{
     width: 100%;
     display: flex;
@@ -6,12 +6,14 @@
     padding-bottom: 0.2em;
     margin-bottom: 2em;
     flex: 1;
+    resize: none;
 }
+
 .field-webform .form-item-rgpd{
     display: flex;
 }
 .field-webform .description {
-    margin-bottom: 2em;
+    margin: 0 0 2em 1em;
     flex: 8;
 }
 .field-webform .description a {
