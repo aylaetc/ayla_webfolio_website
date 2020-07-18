@@ -20,7 +20,7 @@
 }
 
 /* Mobile */
-@media screen and (max-width: 1199px) {
+@media screen and (max-width: 1279px) {
   #icon-menu {
     position: fixed;
     top: 0;
@@ -108,7 +108,7 @@
 }
 
 /* Desktop */
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1280px) {
   #icon-menu {
     display: none;
   }

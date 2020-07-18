@@ -9,7 +9,7 @@
   width: auto;
 }
 
-@media screen and (max-width: 1199px) {
+@media screen and (max-width: 1279px) {
   #block-branding img,
   #block-sitebrandingwhite img{
     height: 5em;
@@ -18,7 +18,7 @@
 }
 
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1280px) {
   #block-branding img,
   #block-sitebrandingwhite img{
     height: 7em;
@@ -36,7 +36,7 @@
   height: 10em;
 }
 
-@media screen and (max-width: 1199px){
+@media screen and (max-width: 1279px){
   #block-branding-home img{
     margin: auto;
   }

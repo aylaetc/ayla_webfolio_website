@@ -106,6 +106,15 @@ ul li {
   }
 }
 
+@media screen and (min-width: 1360px) {
+  .wrapper {
+    width: 40vw;
+  }
+  #block-main-navigation {
+    width: 25vw;
+  }
+}
+
 @media screen and (max-width: 767px) {
   :root {
     --margin-neg : -5vw;

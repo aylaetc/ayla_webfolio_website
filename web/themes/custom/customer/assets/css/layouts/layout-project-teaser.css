@@ -34,8 +34,8 @@
 }
 
 .path-frontpage #block-views-block-projects-block .item-list {
-  padding-top: 14em;
-  padding-bottom: 14em;
+  padding-top: 20em;
+  padding-bottom: 20em;
 }
 
 .path-frontpage #block-views-block-projects-block .item-list {
@@ -268,7 +268,7 @@
 }
 
 /* desktop */
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1280px) {
   .path-frontpage #block-views-block-projects-block .item-list > ul {
     display: grid;
     grid-template-columns: 1fr 1.25fr 1fr;
@@ -304,7 +304,7 @@
 
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1280px) {
   #block-views-block-projects-block-project .item-list > ul {
     padding: 2em 1em;
   }
@@ -375,7 +375,7 @@
 }
 
 /* desktop */
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1280px) {
   .path-realisations .region-main {
     display: grid;
     grid-template-columns: 60% 40%;
