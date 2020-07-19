@@ -1,43 +1,33 @@
 /* PROJECT DEFAULT & TEASER*/
-.project.teaser .field-project-types {
-  display: flex;
-  margin-bottom: 2em;
-}
-
-.project.default .field-project-types,
-.project.gallery .field-project-types {
+.project .field-project-types{
   display: flex;
   flex-flow: row wrap;
   margin-bottom: 2em;
 }
-
-.project.default .field-project-types li,
-.project.teaser .field-project-types li,
-.project.gallery .field-project-types li {
+.project.teaser .field-project-types{
+  justify-content: center;
+}
+.project .field-project-types li{
   font-family: 'california_dreamer_sansRg';
   list-style: none;
   font-size: 1.2em;
   line-height: 1em;
 }
 
-.project.default .field-project-types li:not(:first-child)::before,
-.project.teaser .field-project-types li:not(:first-child)::before,
-.project.gallery .field-project-types li:not(:first-child)::before {
+.project .field-project-types li:not(:first-child)::before{
   content: "\2022";
   font-family: 'Assistant', sans-serif;
   font-size: initial;
   padding: 0 0.5em 0 0.8em;
 }
 
-.project.default .field-project-types li,
-.project.teaser .field-project-types li,
-.project.gallery .field-project-types li {
+.project .field-project-types li{
   font-family: 'california_dreamer_sansRg';
   list-style: none;
   font-size: 1.2em;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 960px) and (max-width: 1279px){
   .project.teaser .field-project-types li {
     font-size: 0.9em;
   }

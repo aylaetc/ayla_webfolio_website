@@ -17,6 +17,7 @@
   font-family: 'california_dreamer_sansRg';
   font-size: 1.5em;
   line-height: 1em;
+  padding-bottom: .3em;
 }
 
 /* HOME */
@@ -76,8 +77,11 @@
 }
 
 /* PROJECT */
-.project.default .field-body p {
+.project .layout-content.header .field-body p{
   margin-bottom: 1.5em;
+}
+.project .layout-content.footer .field-body p {
+  margin-bottom: .5em;
 }
 
 .project.default .field-body em {

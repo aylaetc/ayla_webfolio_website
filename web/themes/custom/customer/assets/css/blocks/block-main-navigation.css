@@ -61,19 +61,19 @@
     letter-spacing: .1em;
   }
 
-  .page-node-type-project #icon-menu strong {
+  .page-node-type-project #icon-menu strong, .page-node-type-project-gallery #icon-menu strong {
     color: #fff;
   }
 
-  .page-node-type-project #icon-menu {
+  .page-node-type-project #icon-menu, .page-node-type-project-gallery #icon-menu {
     fill: #fff;
   }
 
-  .page-node-type-project #icon-menu.active strong {
+  .page-node-type-project #icon-menu.active strong, .page-node-type-project-gallery #icon-menu.active strong {
     color: #000;
   }
 
-  .page-node-type-project #icon-menu.active {
+  .page-node-type-project #icon-menu.active, .page-node-type-project-gallery #icon-menu.active {
     fill: #000;
   }
 

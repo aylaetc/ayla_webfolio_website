@@ -26,22 +26,23 @@ body {
   padding-top: 6em;
 }
 
-.path-frontpage, .page-node-type-project {
+.path-frontpage, .page-node-type-project, .page-node-type-project-gallery {
   padding-top: 0;
 }
-
-.project.default .layout-content.header {
-  margin-top: 6em;
+.project .layout-content.header {
+  margin-top: 4em;
 }
-
 
 /* tablet et +  */
 @media screen and (min-width: 768px) {
   body {
     padding-bottom: 8em;
   }
-  .path-frontpage, .page-node-type-project {
+  .path-frontpage, .page-node-type-project, .page-node-type-project-gallery {
     padding-bottom: 8em;
+  }
+  .project .layout-content.header {
+    margin-top: 8em;
   }
 }
 
@@ -99,10 +100,10 @@ ul li {
 
 @media screen and (min-width: 960px) {
   .wrapper {
-    width: 70vw;
+    width: 65vw;
   }
   #block-main-navigation {
-    width: 15vw;
+    width: 17.5vw;
   }
 }
 
@@ -131,8 +132,8 @@ ul li {
 
 @media screen and (min-width: 960px) {
   :root {
-    --margin-neg : -15vw;
-    --padding-neg : 15vw;
+    --margin-neg : -17.5vw;
+    --padding-neg : 17.5vw;
   }
 }
 
