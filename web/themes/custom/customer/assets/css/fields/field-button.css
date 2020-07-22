@@ -7,6 +7,16 @@
     padding: 0.5em 1.5em;
     background-color: initial;
     cursor: pointer;
+    -webkit-transition: all 0.8s ease;
+  -moz-transition: all 0.8s ease;
+  -ms-transition: all 0.8s ease;
+  -o-transition: all 0.8s ease;
+  transition: all 0.8s ease;
+}
+.field-button:hover{
+    color: #93B9AF;
+    border: 2px solid #93B9AF;
+  
 }
 @media screen and (max-width: 767px){
     .field-button{

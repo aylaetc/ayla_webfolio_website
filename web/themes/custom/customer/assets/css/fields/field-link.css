@@ -13,6 +13,15 @@ div.field-link > a {
     font-family: 'california_dreamer_sansRg';
     font-size: 1.5em;
     color: #c69f70;
+    -webkit-transition: all 0.8s ease;
+    -moz-transition: all 0.8s ease;
+    -ms-transition: all 0.8s ease;
+    -o-transition: all 0.8s ease;
+    transition: all 0.8s ease;
+}
+div.field-link > a:hover {
+  color: #93B9AF;
+
 }
 .page-node-type-project-gallery div.field-link > a,
 .page-node-type-project-gallery div.field-link > a {
@@ -33,6 +42,11 @@ ul.field-link li a {
   font-size: 1.5em;
   color: #c69f70;
   display: block;
+  -webkit-transition: all 0.8s ease;
+  -moz-transition: all 0.8s ease;
+  -ms-transition: all 0.8s ease;
+  -o-transition: all 0.8s ease;
+  transition: all 0.8s ease;
 }
 ul.field-link li a:before {
   content: ">";

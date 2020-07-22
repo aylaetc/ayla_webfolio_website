@@ -63,7 +63,7 @@ a {
 }
 
 p {
-  line-height: 1.4em;
+  line-height: 1.5em;
 }
 
 em {
@@ -71,6 +71,16 @@ em {
   font-family: 'Assistant', sans-serif;
   font-weight: 400;
   font-style: inherit;
+}
+em a{
+  -webkit-transition: all 0.8s ease;
+  -moz-transition: all 0.8s ease;
+  -ms-transition: all 0.8s ease;
+  -o-transition: all 0.8s ease;
+  transition: all 0.8s ease;
+}
+em a:hover{
+  color: #93B9AF;
 }
 
 img {

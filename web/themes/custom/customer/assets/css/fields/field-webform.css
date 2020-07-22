@@ -23,4 +23,13 @@
 .field-webform .description a {
     color: #c69f70;
     font-weight: 400;
+    -webkit-transition: all 0.8s ease;
+    -moz-transition: all 0.8s ease;
+    -ms-transition: all 0.8s ease;
+    -o-transition: all 0.8s ease;
+    transition: all 0.8s ease;
+}
+.field-webform .description a:hover{
+    color: #93B9AF;
+
 }
