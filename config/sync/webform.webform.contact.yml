@@ -109,10 +109,10 @@ settings:
   draft_loaded_message: ''
   draft_pending_single_message: ''
   draft_pending_multiple_message: ''
-  confirmation_type: url_message
+  confirmation_type: url
   confirmation_title: ''
-  confirmation_message: 'Your message has been sent.'
-  confirmation_url: '<front>'
+  confirmation_message: 'Votre message &agrave; bien &eacute;t&eacute; envoy&eacute;.'
+  confirmation_url: /merci
   confirmation_attributes: {  }
   confirmation_back: true
   confirmation_back_label: ''
@@ -139,6 +139,13 @@ settings:
   results_customize: false
   token_view: false
   token_update: false
+  page_theme_name: ''
+  wizard_auto_forward: true
+  wizard_prev_button_label: ''
+  wizard_next_button_label: ''
+  wizard_toggle: false
+  wizard_toggle_show_label: ''
+  wizard_toggle_hide_label: ''
 access:
   create:
     roles:
@@ -206,8 +213,8 @@ handlers:
       from_mail: _default
       from_options: {  }
       from_name: _default
-      subject: '[webform_submission:values:subject:raw]'
-      body: '[webform_submission:values:message:value]'
+      subject: 'Votre demande de contact'
+      body: "Bonjour, votre message &agrave; bien &eacute;t&eacute; envoy&eacute;.&nbsp;<br />\r\nJe m&#39;efforce de vous r&eacute;pondre au plus vite !<br />\r\n<br />\r\nA tr&egrave;s bient&ocirc;t,&nbsp;<br />\r\nAyla"
       excluded_elements: {  }
       ignore_access: false
       exclude_empty: true
@@ -242,8 +249,8 @@ handlers:
       from_mail: '[webform_submission:values:email:raw]'
       from_options: {  }
       from_name: '[webform_submission:values:name:raw]'
-      subject: '[webform_submission:values:subject:raw]'
-      body: '[webform_submission:values:message:value]'
+      subject: 'Demande de contact à Ayla etc.'
+      body: "Une demande de contact &agrave; &eacute;t&eacute; faite depuis le site Ayla etc.\r\n<ul>\r\n\t<li>Nom : [webform_submission:values:nom:raw]</li>\r\n\t<li>Pr&eacute;nom : [webform_submission:values:name:raw]</li>\r\n\t<li>Entreprise&nbsp;: [webform_submission:values:entreprise:raw]</li>\r\n\t<li>Mail&nbsp;: [webform_submission:values:email:raw]</li>\r\n</ul>\r\nSujet :&nbsp;<br />\r\n[webform_submission:values:sujet:raw]<br />\r\n<br />\r\nMessage :<br />\r\n[webform_submission:values:message:raw]"
       excluded_elements: {  }
       ignore_access: false
       exclude_empty: true

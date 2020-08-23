@@ -90,6 +90,7 @@
 
 .project.default .field-body ul {
   margin-bottom: 1em;
+  line-height: 2em;
 }
 
 .project.default .field-body:not(:last-child) ul li:first-child {
