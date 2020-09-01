@@ -132,4 +132,7 @@
   .page-node-type-project-gallery #block-main-navigation ul li {
     color: #fff;
   }
+  #block-main-navigation.nav-transform ul li{
+    color: #000000;
+  }
 }

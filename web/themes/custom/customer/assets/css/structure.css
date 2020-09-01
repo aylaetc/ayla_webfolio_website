@@ -121,6 +121,10 @@ ul li {
   .wrapper {
     width: 40vw;
   }
+  .page-node-type-project .wrapper, 
+  .page-node-type-project-gallery .wrapper {
+    width: 55vw;
+  }
   #block-main-navigation {
     width: 25vw;
   }

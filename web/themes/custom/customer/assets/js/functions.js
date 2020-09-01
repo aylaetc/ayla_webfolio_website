@@ -1,21 +1,20 @@
-// var slider = tns({
-//     // disable slider on small viewport
-//     disable: true,
-//     responsive: {
-//       1280: {
-//         // enable slider on big viewport
-//         disable: false,
-//         container: '.slider',
-//         items: 3,
-//         slideBy: 'page'
-//       }
-//     }
-//   });
-
-
 $(document).ready(function(){
     $("#icon-menu").click(function(){
         $("#icon-menu").toggleClass("active");
         $("#block-main-navigation").toggleClass("menu-mobile");
     });
 });
+
+// let test = document.getElementById("picture-header").offsetHeight;
+// let parent = document.getElementById("picture-header").parentNode;
+// let scrollY = parent.scrollY;
+// // console.log(parent);
+// // console.log(test);
+// parent.onescroll
+
+var controller = new ScrollMagic.Controller();
+
+	// build scenes
+	new ScrollMagic.Scene({triggerElement: "#scroll-transform", duration:"100%", triggerHook: "onCenter"})
+					.setClassToggle("#block-main-navigation", "nav-transform") // add class toggle
+					.addTo(controller);
