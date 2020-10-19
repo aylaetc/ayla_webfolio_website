@@ -19,11 +19,10 @@ var controller = new ScrollMagic.Controller();
 					.setClassToggle("#block-main-navigation", "nav-transform") // add class toggle
 					.addTo(controller);
 
-  new ScrollMagic.Scene({triggerElement: "#scroll-transform-2", duration:"100%", triggerHook: "onCenter"})
+  new ScrollMagic.Scene({triggerElement: "#scroll-transform-2", duration:"100%", triggerHook: "onLeave"})
     .setClassToggle("#block-main-navigation", "nav-transform") // add class toggle
     .addTo(controller);
 
   new ScrollMagic.Scene({triggerElement: "#scroll-transform-3", duration:"100%", triggerHook: "onLeave"})
     .setClassToggle("#block-main-navigation", "nav-transform") // add class toggle
     .addTo(controller);
-

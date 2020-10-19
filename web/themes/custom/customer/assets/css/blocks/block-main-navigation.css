@@ -128,11 +128,11 @@
     margin-bottom: 1em;
   }
 
-  .page-node-type-project #block-main-navigation ul li,
-  .page-node-type-project-gallery #block-main-navigation ul li {
+  .page-node-type-project #block-main-navigation ul li a,
+  .page-node-type-project-gallery #block-main-navigation ul li a{
     color: #fff;
   }
-  #block-main-navigation.nav-transform ul li{
+  #block-main-navigation.nav-transform ul li a{
     color: #000000;
   }
 }

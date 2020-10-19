@@ -50,6 +50,7 @@
 
   .project.gallery .layout-content.header {
     grid-row: 1;
+    grid-column: 1;
     z-index: 1;
   }
 
