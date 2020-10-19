@@ -99,6 +99,15 @@
     margin-top: -10.5vw;
   }
 }
+/* desktop */
+@media screen and (min-width: 1360px) {
+  /* 3,7,11 */
+  .about .field-picture li:nth-child(4n-1),
+  .webform .field-picture li:nth-child(4n-1),
+  .project.gallery .layout-picture-footer .field-picture li:nth-child(4n-1) {
+    margin-top: -8vw;
+  }
+}
 
 /* REALISATION */
 /* mobile */
@@ -148,5 +157,13 @@
   /* 3,7,11 */
   .path-realisations .item-list > ul > li:nth-child(4n-1) {
     margin-top: -10.5vw;
+  }
+}
+
+/* desktop */
+@media screen and (min-width: 1360px) {
+  /* 3,7,11 */
+  .path-realisations .item-list > ul > li:nth-child(4n-1) {
+    margin-top: -8vw;
   }
 }

@@ -39,8 +39,10 @@
   }
 }
 
-/* @media screen and (min-width: 1360px) {
-  .region-footer {
-    width: 40vw;
+@media screen and (min-width: 1360px) {
+  .path-realisations .region-footer .region,
+  .page-node-type-about .region-footer .region,
+  .page-node-type-webform .region-footer .region {
+    margin : 0 -17.5vw;
   }
-} */
+}
