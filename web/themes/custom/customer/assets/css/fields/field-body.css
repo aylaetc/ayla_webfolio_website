@@ -126,3 +126,8 @@
   font-family: 'california_dreamer_sansRg';
   font-size: 1.5em;
 }
+
+#block-contact a:hover {
+  color: #93B9AF;
+
+}
