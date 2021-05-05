@@ -125,9 +125,13 @@
   color: #c69f70;
   font-family: 'california_dreamer_sansRg';
   font-size: 1.5em;
+  -webkit-transition: all 0.8s ease;
+  -moz-transition: all 0.8s ease;
+  -ms-transition: all 0.8s ease;
+  -o-transition: all 0.8s ease;
+  transition: all 0.8s ease;
 }
 
 #block-contact a:hover {
   color: #93B9AF;
-
 }
