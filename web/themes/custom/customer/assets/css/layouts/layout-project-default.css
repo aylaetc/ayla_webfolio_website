@@ -18,10 +18,7 @@
 .project.default .layout-content.header {
   grid-row: 2;
 }
-.project.default .layout-picture-header .field-picture {
-  height: 100%;
-}
-.project.default .layout-picture-header .field-picture img {
+.project.default >.layout-picture-header >.field-picture img {
   height: 100%;
   width: 100%;
   display: block;
