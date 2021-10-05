@@ -8,6 +8,7 @@ module:
   block: 0
   block_content: 0
   breakpoint: 0
+  captcha: 0
   ckeditor: 0
   color: 0
   comment: 0
@@ -26,7 +27,9 @@ module:
   google_analytics: 0
   help: 0
   history: 0
+  honeypot: 0
   image: 0
+  image_captcha: 0
   layout_discovery: 0
   link: 0
   mail_login: 0
