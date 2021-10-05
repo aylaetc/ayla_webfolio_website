@@ -1,7 +1,7 @@
-uuid: 29690f6e-e458-4303-b1fa-b206de3ffcc5
+uuid: 9e93f5c5-f7f7-4481-98ff-191f93993a69
 langcode: en
 status: true
 dependencies: {  }
 id: NXhscRe0440PFpI5dSznEVgmauL25KojD7u4e9aZwOM
-label: 'http://localhost:8888/ayla_webfolio_website/web'
+label: Sitemap
 context: {  }
