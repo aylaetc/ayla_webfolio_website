@@ -16,7 +16,8 @@
 .field-webform .form-item-rgpd{
     display: flex;
 }
-.field-webform .description {
+
+.field-webform .js-form-type-checkbox .description{
     margin: 0 0 2em 1em;
     flex: 8;
 }
@@ -32,4 +33,14 @@
 .field-webform .description a:hover{
     color: #93B9AF;
 
+}
+.field-webform .reload-captcha-wrapper {
+    margin-bottom: 2em;
+}
+.field-webform .reload-captcha-wrapper a{
+    margin-bottom: 2em;
+    color: #c69f70;
+}
+.field-webform .reload-captcha-wrapper:hover a{
+    color: #93B9AF;
 }
